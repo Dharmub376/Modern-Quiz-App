@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form class="quiz">
+      <div class="quiz__inner"></div>
+      <div class="quiz__step quiz__summary">
+        <h1 class="quiz__question">Summary</h1>
+        <div id="summary"></div>
+        <div class="submit__container">
+          <a href="#" class="submit">Submit</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer class="bottom">
+    <section class="bottom__container">
+      <div class="progress">
+        <div class="progress__inner"></div>
+      </div>
+      <div class="navigation">
+        <div class="navigation__btn navigation__btn--left">
+          <svg width="20" height="20" viewBox="0 0 24 24">
+            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+        </div>
+        <div class="navigation__btn navigation__btn--right">
+          <svg width="20" height="20" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+    <script src="./questions.js"></script>
+</body>
+
+</html>
